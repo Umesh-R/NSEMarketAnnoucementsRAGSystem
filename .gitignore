@@ -1,0 +1,17 @@
+# Downloaded NSE documents, manifest, logs, constituent snapshots: never publish
+annoucement docs/
+
+# Probe outputs (raw API responses)
+probe_out/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Local env / secrets
+.env
